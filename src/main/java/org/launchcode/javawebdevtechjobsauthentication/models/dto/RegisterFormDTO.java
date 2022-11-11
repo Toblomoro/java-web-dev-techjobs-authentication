@@ -1,6 +1,9 @@
 package org.launchcode.javawebdevtechjobsauthentication.models.dto;
 
-public class RegisterFormDTO {
+import org.launchcode.javawebdevtechjobsauthentication.models.dto.*;
+
+
+public class RegisterFormDTO extends LoginFormDTO {
 
     private String verifyPassword;
 
@@ -11,4 +14,5 @@ public class RegisterFormDTO {
     public void setVerifyPassword(String verifyPassword) {
         this.verifyPassword = verifyPassword;
     }
+
 }
