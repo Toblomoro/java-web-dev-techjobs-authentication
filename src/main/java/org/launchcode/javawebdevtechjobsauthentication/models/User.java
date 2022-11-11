@@ -6,7 +6,7 @@ import javax.persistence.*;
 import javax.validation.constraints.*;
 
 @Entity
-public class User {
+public class User  extends AbstractEntity {
 
     @NotNull
     private  String username;
